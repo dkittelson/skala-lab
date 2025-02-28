@@ -1,0 +1,107 @@
+Fluorescence lifetime imaging microscopy: fundamentals and advances in instrumentation, analysis, and applications:
+
+Fluorescence Lifetime Imaging Microscopy (FLIM) Overview
+  - measures time a fluorophore remains in an excited state
+      - photon timing histogram
+      - phase-frequency plot
+  - sensitive to disease progression, drug efficacy
+  - quantifies chemical, physical changes (temp, viscosity, pH, etc)
+  - Study cell metabolism, protein interactions, disease research
+
+1.1 Flourescence Lifetime
+  - Molecule absorbs light, electron moves to higher level
+  - Electron loses energy and moves to lowest excited state
+  - Returns to ground state, releases light
+  - Emitted < Absorbed Light -> Stokes Shift
+
+1.2 Autofluorescence FLIM Measurements
+  - NADH and FAD are fluorescent and thus can be used for imaging
+
+1.3 FLIM-FRET Microscopy
+  - Detailed view of molecular interactions
+  - Donor and Acceptor Fluorophore
+
+1.4 Advantages of FLIM Over Intensity Imaging
+  - Can distinguish spectrally overlapping fluorophores (NAD(P)H)
+  - Less affected by changes in fluorophore concentration
+  - Does not require calibration steps like intensity-based measurements
+  - Less affected by light scattering
+
+2 Instrumentation
+  - Time-domain FLIM
+      - Short pulse of light for excitation
+      - Records exponential decay directly or time-resolved electronics
+  - Frequency-domain FLIM
+      - Excitation is continous as a sine wave
+      - Analyzes phase delay and amplitude modulation
+      - Fast acquisition speed, performs well with bright samples
+  - TCSPC
+      - Measures the time between excitation and emission photons
+      - High accuracy of lifetime estimation
+  - Time-Gating (TG)
+      - Samples decay at multiple time gates for faster acquisition
+      - Lower electronic dead time than TCSPC
+
+2.1 Microscopy
+  - Laser Scanning Microscopy (LSM)
+      - Opital sectioning, allowing 3D FLIM imaging
+      - Offers out-of-focus rejection, leading to higher contrast
+      - Paired with faster electronics
+  - Wide-field Illumination (WFI)
+      - Uses parallel illumintation field at focus of the objective lens
+          - Collects fluorescence from the focal plane onto a camera
+      - Higher frame rates than LSM
+      - Lower camera sensitivity
+
+3.1 Fluorescence Lifetime Estimation
+  - Fitting Methods
+      - Fitting multiexponential decays to lifetime histograms
+      - Least fitting squares
+      - Maximum likelihood estimation
+      - Global Analysis
+      - Bayesian Analysis
+  - Phasor Methods
+      - Transforms decay into a 2D phasor space, 
+      - Rapid analysis of FLIM data by clustering pixels with similar lifetimes
+      - Phasor Analaysis
+  - Deconvolution Methods
+      - Recover decays by transforming the signal, improving precision
+      - Stretched exponential analysis
+      - Lifetime moment analysis
+      - Transformation
+      - Laguerre Deconvolution
+  - Machine Learning Analysis
+      - Neural networks can estimate fluorescence lifetimes directly
+      - CNNs calculate lifetimes by downsampling and upsampling images
+
+3.2 Fluorescence Lifetime Heterogeneity Analysis
+  - Pixel-level Analysis
+      - Captures subcellular and cell-level heterogeneity
+  - Object-level Analysis
+      - Lifetime distributions are analyzed using population density models
+          - Identify subpopulations and quantify heterogeneity
+
+4.1 Autofluorescence FLIM Applications
+  - In vivo autofluorescence FLIM
+      - Detect changes in autofluorescence in human skin
+          - Identify disease states like melanoma and fungal infections
+      - Tracked NAD(P)H lifetime changes that correlated with tumor volume
+          - Detect treatment effects quick
+  - 3D in vitro autofluorescence FLIM
+      - Predicts drug response in primary tumor organoids
+
+4.2 FLIM of Exogenous Molecular Probes
+  - Exogenous molecular probes for in vivo applications
+      - Used to detect tumors and monitor drug deliver
+  - In vitro molecular probe FLIM
+      - Track molecular trafficking and measure changes in cellular conditions
+      - Oxygen sensing
+
+4.3 FLIM-FRET Applications
+  - Measure protein activity, gene regulation, and subcellular dynamics
+
+
+
+
+
+
