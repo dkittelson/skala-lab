@@ -8,7 +8,7 @@ Fluorescence Lifetime Imaging Microscopy (FLIM) Overview
   - quantifies chemical, physical changes (temp, viscosity, pH, etc)
   - Study cell metabolism, protein interactions, disease research
 
-1.1 Flourescence Lifetime
+1.1 Flourescence Lifetime (why Lifetime?)
   - Molecule absorbs light, electron moves to higher level
   - Electron loses energy and moves to lowest excited state
   - Returns to ground state, releases light
